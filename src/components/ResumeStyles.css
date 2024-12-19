@@ -1,0 +1,49 @@
+.resume-container {
+    margin: 2rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+.collapsible {
+    background-color: rgb(248,217,15);
+    color: #222;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: solid 1px #fff;
+    text-align: left;
+    outline: none;
+    font-size: 2.5rem;
+  }
+
+  .spacer {
+    height: 2rem;
+  }
+
+  
+  .active, .collapsible:hover {
+    transition: all 0.3s ease;
+    background-color: rgb(255,255, 255,0.2);
+    color: white;
+  }
+  
+  .collapsible-content {
+    width: 80%;
+    margin: 0 auto 2rem auto;
+    padding: 1.4rem 1.4rem;
+    overflow: hidden;
+    background-color: rgb(255,255, 255,0.2);
+    text-align: left;
+  }
+
+  .collapsible-content h4, .collapsible-content li {
+    font-weight: 200;
+    font-size: 1.4rem;
+  }
+
+  .collapsible-content ul {
+    list-style: disc;
+    padding: 0 1rem;
+    line-height: 3rem;
+  }
+

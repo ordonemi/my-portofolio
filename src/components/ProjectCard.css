@@ -1,0 +1,58 @@
+.project-container {
+    width: 90%;
+    border: solid 2px rgb(248,217,15);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 2rem auto;
+}
+
+.project-container:hover {
+    box-shadow: 0 0 10px rgb(248,217,15);;
+}
+
+.project-container:hover .github {
+    animation: slideIn 1s forwards;
+}
+
+
+.project-img {
+    width: 200px;
+    height: 200px;
+    margin: 1.4rem;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem;
+}
+
+.github {
+    position: absolute;
+    bottom: 0;
+    left: -100%; /* Start off-screen */
+    opacity: 0; /* Start invisible */
+    margin: 2rem;
+}
+
+.github a {
+    font-size: 1.5rem;
+}
+
+.github a:hover {
+    color: rgb(248,217,15);
+}
+
+@keyframes slideIn {
+    to {
+        left: 45%; /* End position */
+        opacity: 1; /* Fully visible */
+    }
+}

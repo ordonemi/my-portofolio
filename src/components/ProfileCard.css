@@ -1,0 +1,63 @@
+.profile-picture {
+    width: 400px;
+    border: solid 5px white;
+    border-radius: 50%;
+    display: block;
+    margin:  4rem auto;
+}
+
+.profile-picture img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile-card {
+    width: 100%;
+    padding: 1.4rem;
+    text-align: center;
+}
+
+.profile-card h1 {
+    font-size: 3rem;
+}
+
+.about-me {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.about-me p{
+    font-weight: 200;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.buttons a {
+    margin: 0 1.2rem 4rem 1.2rem;
+}
+
+@media screen and (max-width: 640px) {
+    .about-me {
+        width: 100%;
+    }
+    
+    .about-me p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .profile-picture {
+        width: 250px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

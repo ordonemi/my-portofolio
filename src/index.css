@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+h1, h4, p, a, button, li {
+  font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.custom-btn {
+  border: solid white 1px;
+  width: 200px;
+  height: 60px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Agdasima", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Blue button animation */
+.btn-blue {
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-blue span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-blue:before,
+.btn-blue:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-blue:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-blue:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-blue:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-blue:hover:before {
+  height: 100%;
+}
+.btn-blue:hover:after {
+  width: 100%;
+}
+.btn-blue span:hover{
+   color: rgba(2,126,251,1);
+}
+.btn-blue span:before,
+.btn-blue span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-blue span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-blue span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-blue span:hover:before {
+  height: 100%;
+}
+.btn-blue span:hover:after {
+  width: 100%;
+}
+
+/* 3 */
+.btn-blue {
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-blue span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-blue:before,
+.btn-blue:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-blue:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-blue:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-blue:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-blue:hover:before {
+  height: 100%;
+}
+.btn-blue:hover:after {
+  width: 100%;
+}
+.btn-blue span:hover{
+   color: rgba(2,126,251,1);
+}
+.btn-blue span:before,
+.btn-blue span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-blue span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-blue span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-blue span:hover:before {
+  height: 100%;
+}
+.btn-blue span:hover:after {
+  width: 100%;
+}
+
+/* Green button animation */
+.btn-green {
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-green span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-green:before,
+.btn-green:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: green;
+  transition: all 0.3s ease;
+}
+.btn-green:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-green:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-green:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-green:hover:before {
+  height: 100%;
+}
+.btn-green:hover:after {
+  width: 100%;
+}
+.btn-green span:hover{
+   color: green;
+}
+.btn-green span:before,
+.btn-green span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: green;
+  transition: all 0.3s ease;
+}
+.btn-green span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-green span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-green span:hover:before {
+  height: 100%;
+}
+.btn-green span:hover:after {
+  width: 100%;
+}
+

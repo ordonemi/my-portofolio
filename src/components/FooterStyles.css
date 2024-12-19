@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgb(19,19,19,0.8);
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.left {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 640px) {
+    .left {
+        flex-direction: column;
+        align-items: center;
+    }
+}
